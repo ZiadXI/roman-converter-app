@@ -1,0 +1,23 @@
+{
+   "type": "module",
+   "name": "visual-studio-code-projects",
+   "version": "1.0.0",
+   "description": "express for zoz",
+   "main": "server.js",
+   "scripts": {
+      "start": "nodemon server",
+      "dev": "node --watch server"
+   },
+   "author": "Ziad",
+   "license": "ISC",
+   "dependencies": {
+      "colors": "^1.4.0",
+      "dotenv": "^17.2.0",
+      "ejs": "^3.1.10",
+      "express": "^5.1.0",
+      "mongosh": "^2.5.5"
+   },
+   "devDependencies": {
+      "nodemon": "^3.1.10"
+   }
+}
